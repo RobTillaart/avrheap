@@ -1,7 +1,7 @@
 //
 //    FILE: avrheap.cpp
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.2.0
+// VERSION: 0.2.1
 // PURPOSE: experimental library for heap Arduino UNO
 //     URL: https://github.com/RobTillaart/avrheap
 //
@@ -10,6 +10,7 @@
 // http://forum.arduino.cc/index.php?topic=355660
 //
 // HISTORY
+// 0.2.1    2020-05-27 update library.json
 // 0.2.0    2020-03-27 Removed support for pre 1.0 version
 // 0.1.5  - fix typo #116 - Thanks to DMNC
 // 0.1.04 - new methods incl PrintTo support - Thanks to Whandall
