@@ -7,7 +7,6 @@
 //     URL: https://github.com/RobTillaart/avrheap
 //
 
-/* works only with old version
 
 #include "avrheap.h"
 
@@ -21,6 +20,8 @@ void setup()
   Serial.print("Start ");
   Serial.println(__FILE__);
   Serial.println(AVRHEAP_LIB_VERSION);
+  
+  /* works only with old version KEEP CI happy
 
   Serial.println();
   Serial.print("HEAP ADDR:\t");
@@ -83,6 +84,8 @@ void setup()
   myheap.dump(80);
   Serial.println("\nfollowHeap");
   myheap.followHeap();
+  */
+
   Serial.println("\ndone");
 }
 

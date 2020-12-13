@@ -7,7 +7,7 @@
 # AVRheap
 Arduino library to investigate the heap of an avr processor, e.g. UNO (AVR328).
 
-**Note**: this is an **experimental** library, not for beginners.
+**Note**: this is an **experimental** library and very specific, not for beginners.
 
 
 ## Description
