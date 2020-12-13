@@ -5,8 +5,7 @@
 // PURPOSE: demo AvrHeap class
 //    DATE: 2015-10-25
 //     URL: http://forum.arduino.cc/index.php?topic=355660
-//
-// Released to the public domain
+//          https://github.com/RobTillaart/avrheap
 //
 
 #include "avrheap.h"
@@ -65,4 +64,7 @@ void setup()
 }
 
 void loop()
-{}
+{
+}
+
+// -- END OF FILE --

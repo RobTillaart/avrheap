@@ -4,9 +4,7 @@
 // VERSION: 0.1.00
 // PURPOSE: heapdemo
 //    DATE: 2015-10-25
-//     URL:
-//
-// Released to the public domain
+//     URL: https://github.com/RobTillaart/avrheap
 //
 
 #include "avrheap.h"
@@ -87,5 +85,8 @@ void setup()
 }
 
 void loop()
-{}
+{
+}
+
+// -- END OF FILE --
 
