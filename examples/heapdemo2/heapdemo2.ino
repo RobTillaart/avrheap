@@ -8,6 +8,17 @@
 //          https://github.com/RobTillaart/avrheap
 //
 
+#if !defined(ARDUINO_ARCH_AVR)
+void setup()
+{
+}
+
+void loop()
+{
+}
+
+#else
+
 #include "avrheap.h"
 
 Avrheap myheap;
@@ -66,5 +77,7 @@ void setup()
 void loop()
 {
 }
+
+#endif
 
 // -- END OF FILE --

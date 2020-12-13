@@ -7,6 +7,8 @@
 //     URL: https://github.com/RobTillaart/avrheap
 //
 
+/* works only with old version
+
 #include "avrheap.h"
 
 Avrheap myheap;
@@ -87,5 +89,6 @@ void setup()
 void loop()
 {
 }
+*/
 
 // -- END OF FILE --
