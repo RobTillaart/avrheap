@@ -8,11 +8,14 @@
 //          https://github.com/RobTillaart/avrheap
 //
 
+
 #if !defined(ARDUINO_ARCH_AVR)
+
 
 void setup()
 {
 }
+
 
 void loop()
 {
@@ -20,11 +23,13 @@ void loop()
 
 #else
 
+
 #include "avrheap.h"
 
 Avrheap myheap;
 
 int *par[10];
+
 
 void setup()
 {
@@ -75,9 +80,11 @@ void setup()
   Serial.println(F("done"));
 }
 
+
 void loop()
 {
 }
+
 
 #endif
 
